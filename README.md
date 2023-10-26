@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 3. Edit `run.sh` for your own input output path
-4. Add hammerspoon lua script from `usb-watcher.lua`
+4. Add `use-watcher.lua` to your hammerspoon init.lua. Make sure you edit the device name and the path to the `run.sh` script.
 
 ## Limitations
 - It's using whisper "small" model, takes quite some time to transcribe. However, I find it have better multi-language performance.
